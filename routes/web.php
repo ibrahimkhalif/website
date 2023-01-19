@@ -19,6 +19,7 @@ use App\Http\Controllers\ProjectCategoryController;
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+Route::redirect('/', '/en');
 
 Route::group(['prefix' => '{locale}', 'middleware' => 'setLocale'], function () {
    
