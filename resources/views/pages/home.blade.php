@@ -77,11 +77,11 @@
                         <div class="icon-box iconbox-blue">
                             <a href="/" class="logo me-auto "><img src="{{ asset('assets/img/educ.jpg') }}" alt=""
                                     class="img-fluid"></a>
-                            <h4><a href="">@lang('massages.construction-of education')</a></h4>
+                            <h4><a href="">@lang('massages.construction-of-education')</a></h4>
                             <br>
                             <div class="btn btn-danger">
                                 <a href="{{route('portfolio-details',['locale'=>app()->getLocale() == 'en'? 'en':'ar'])}}"
-                                    class="btn-buy">View More</a>
+                                    class="btn-buy">@lang('massages.view')</a>
                             </div>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
                             <br>
                             <div class="btn btn-danger">
                                 <a href="{{route('portfolio-details',['locale'=>app()->getLocale() == 'en'? 'en':'ar'])}}"
-                                    class="btn-buy">View More</a>
+                                    class="btn-buy">@lang('massages.view')</a>
                             </div>
                         </div>
                     </div>
@@ -107,7 +107,7 @@
                             <br>
                             <div class="btn btn-danger">
                                 <a href="{{route('portfolio-details',['locale'=>app()->getLocale() == 'en'? 'en':'ar'])}}"
-                                    class="btn-buy">View More</a>
+                                    class="btn-buy">@lang('massages.view')</a>
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
                             <br>
                             <div class="btn btn-danger">
                                 <a href="{{route('portfolio-details',['locale'=>app()->getLocale() == 'en'? 'en':'ar'])}}"
-                                    class="btn-buy">View More</a>
+                                    class="btn-buy">@lang('massages.view')</a>
                             </div>
                         </div>
                     </div>
@@ -133,7 +133,7 @@
                             <br>
                             <div class="btn btn-danger">
                                 <a href="{{route('portfolio-details',['locale'=>app()->getLocale() == 'en'? 'en':'ar'])}}"
-                                    class="btn-buy">View More</a>
+                                    class="btn-buy">@lang('massages.view')</a>
                             </div>
                         </div>
                     </div>
@@ -146,7 +146,7 @@
                             <br>
                             <div class="btn btn-danger">
                                 <a href="{{route('portfolio-details',['locale'=>app()->getLocale() == 'en'? 'en':'ar'])}}"
-                                    class="btn-buy">View More</a>
+                                    class="btn-buy">@lang('massages.view')</a>
                             </div>
                         </div>
                     </div>

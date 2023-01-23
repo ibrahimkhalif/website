@@ -11,10 +11,10 @@
             <div class="container">
 
                 <div class="d-flex justify-content-between align-items-center">
-                    <h2>Board Members</h2>
+                    <h2>@lang('massages.board')</h2>
                     <ol>
-                        <li><a href="index.html">Home</a></li>
-                        <li>Board Members</li>
+                        <li><a href="index.html">@lang('massages.home')</a></li>
+                        <li>@lang('massages.board')</li>
                     </ol>
                 </div>
 
@@ -26,7 +26,7 @@
             <div class="container">
 
                 <div class="section-title" data-aos="fade-up">
-                    <h2>Our <strong>Board Members</strong></h2>
+                    <h2>@lang('massages.success') <strong>@lang('massages.board')</strong></h2>
 
                 </div>
 
@@ -44,9 +44,9 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h4>Muhuyidin M Sambul</h4>
-                                <h7>BA Islamic Sharia</h7>
-                                <span>chairperson</span>
+                                <h4>@lang('massages.sambul')</h4>
+                                <h7>@lang('massages.sambul1')</h7>
+                                <span>@lang('massages.sambul2')</span>
                             </div>
                         </div>
                     </div>
@@ -62,9 +62,9 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h4>Mohamed Shale Billow </h4>
-                                <h7>MA International Relation & Diplomacy</h7>
-                                <span>Treasurer</span>
+                                <h4>@lang('massages.shale')</h4>
+                                <h7>@lang('massages.shale1')</h7>
+                                <span>@lang('massages.shale2')</span>
                             </div>
                         </div>
                     </div>
@@ -80,9 +80,9 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h4>Nuria Dakane Abdikarim </h4>
-                                <h7>Post Secondary Certificate</h7>
-                                <span>Secretary Ex Offical</span>
+                                <h4>@lang('massages.nuria')</h4>
+                                <h7>@lang('massages.nuria1')</h7>
+                                <span>@lang('massages.nuria2')</span>
                             </div>
                         </div>
                     </div>
@@ -99,9 +99,9 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h4>Dr Ibrahim M Amin</h4>
-                                <h7>PHD in Curriculum Development</h7>
-                                <span>Board Member</span>
+                                <h4>@lang('massages.amin')</h4>
+                                <h7>@lang('massages.amin1')</h7>
+                                <span>@lang('massages.amin2')</span>
                             </div>
                         </div>
                     </div>
@@ -117,9 +117,9 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h4>Abdiweli Ali Mohamed</h4>
-                                <h7>MA</h7>
-                                <span>Board Member</span>
+                                <h4>@lang('massages.abdiweli')</h4>
+                                <h7>@lang('massages.abdiweli1')</h7>
+                                <span>@lang('massages.amin2')</span>
                             </div>
                         </div>
                     </div>
@@ -139,9 +139,9 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h4>Nasrudin M Sambul </h4>
-                                <h7>MA Arabic Language & Post Graduate Diploma in Business Adminstration</h7>
-                                <span>Board Member</span>
+                                <h4>@lang('massages.nasrudin')</h4>
+                                <h7>@lang('massages.nasrudin')</h7>
+                                <span>@lang('massages.amin2')</span>
                             </div>
                         </div>
                     </div>
@@ -157,9 +157,9 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h4>Ibrahim Mira Adan </h4>
-                                <h7>MA Islamic Law,Diploma Business Adminstration,Certificate Accounting Software</h7>
-                                <span>Board Member</span>
+                                <h4>@lang('massages.mira') </h4>
+                                <h7>@lang('massages.mira1')</h7>
+                                <span>@lang('massages.amin2')</span>
                             </div>
                         </div>
                     </div>
@@ -175,9 +175,9 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h4>Hared Hussein Osman </h4>
-                                <h7>MA Peace and Conflict Studies</h7>
-                                <span>Board Member</span>
+                                <h4>@lang('massages.osman') </h4>
+                                <h7>@lang('massages.osman1')</h7>
+                                <span>@lang('massages.amin2')</span>
                             </div>
                         </div>
                     </div>

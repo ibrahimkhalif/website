@@ -65,7 +65,7 @@
                     <div class="col-lg-10">
                         <form action="{{route('message',['locale'=>app()->getLocale() == 'en'? 'en':'ar'])}}"
                             method="post">
-                            @csrf
+                            {{ csrf_field()}}
                             <div class="row">
                                 <div class="col-md-6 form-group">
                                     <input type="text" name="name" class="form-control" id="name"

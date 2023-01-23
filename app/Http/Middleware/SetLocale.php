@@ -19,4 +19,16 @@ class SetLocale
         app()->setLocale($request->segment(1));
         return $next($request);
     }
+    // public function handle($request, Closure $next)
+    // {
+    //     $locale = $request->session()->get('locale');
+    //     if (!$locale) {
+    //         $locale = 'en';
+    //         $request->session()->put('locale', $locale);
+    //     }
+    //     if ($request->path() === '/') {
+    //         return redirect()->to($locale);
+    //     }
+    //     return $next($request);
+    // }
 }
